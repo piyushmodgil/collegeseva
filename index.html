@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>CollegeSeva — Find Colleges in Bihar & Jharkhand</title>
+<meta name="description" content="Compare top colleges in Bihar and Jharkhand — fees, courses and admission info in one place.">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-inner">
+    <div>
+      <div class="logo">College<span>Seva</span></div>
+      <div class="tagline">Colleges in Bihar &amp; Jharkhand, made simple</div>
+    </div>
+  </div>
+</header>
+
+<section class="hero">
+  <h1>Find the right college in Bihar &amp; Jharkhand</h1>
+  <p>Search by city or course, compare fees, and send an enquiry directly to the college — all in one place.</p>
+
+  <div class="search-box">
+    <select id="cityFilter">
+      <option value="">All Cities</option>
+    </select>
+    <select id="streamFilter">
+      <option value="">All Streams</option>
+    </select>
+    <input id="keywordFilter" type="text" placeholder="Search college name...">
+    <button id="searchBtn">Search</button>
+  </div>
+</section>
+
+<main class="container">
+  <div class="section-title" id="resultsTitle">All Colleges</div>
+  <div class="result-count" id="resultCount"></div>
+  <div class="college-grid" id="collegeGrid"></div>
+  <div class="empty-state" id="emptyState" style="display:none;">No colleges match your search. Try a different filter.</div>
+</main>
+
+<footer>
+  Built by Piyush Kumar &middot; CollegeSeva is a work-in-progress directory — data marked "verify" is sample content, not confirmed.
+</footer>
+
+<!-- Enquiry Modal -->
+<div class="modal-overlay" id="enquiryOverlay">
+  <div class="modal">
+    <button class="close-btn" id="closeModal">&times;</button>
+    <h2 id="modalCollegeName">Send Enquiry</h2>
+    <p class="meta" style="margin:0;">We'll pass your details to the college's admission team.</p>
+    <form id="enquiryForm">
+      <input type="hidden" id="collegeIdField" name="collegeId">
+      <input type="hidden" id="collegeNameField" name="collegeName">
+      <div>
+        <label>Full Name</label>
+        <input type="text" name="name" required>
+      </div>
+      <div>
+        <label>Phone Number</label>
+        <input type="tel" name="phone" pattern="[0-9]{10}" required placeholder="10-digit mobile number">
+      </div>
+      <div>
+        <label>Email</label>
+        <input type="email" name="email" required>
+      </div>
+      <div>
+        <label>Course Interested In</label>
+        <input type="text" name="course" placeholder="e.g. B.Tech, MBA">
+      </div>
+      <button type="submit" class="submit-btn">Submit Enquiry</button>
+      <div class="form-status" id="formStatus"></div>
+    </form>
+  </div>
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>

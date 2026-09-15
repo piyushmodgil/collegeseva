@@ -1,0 +1,72 @@
+[
+  {
+    "id": "amity-university-ranchi",
+    "name": "Amity University Jharkhand (Ranchi Campus)",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "type": "Private University",
+    "streams": ["Engineering", "Management", "Commerce", "Law", "Science", "Journalism & Mass Comm"],
+    "courses": ["B.Tech", "BBA", "B.Com", "BA LLB", "MBA", "MCA", "BJMC"],
+    "fee_note": "SAMPLE — replace with verified current fee range (annual)",
+    "fee_range": "₹0.95L – ₹4.4L / year (VERIFY before publishing)",
+    "highlight": "Part of the Amity Education Group network",
+    "logo": "",
+    "verified": false
+  },
+  {
+    "id": "bit-mesra",
+    "name": "Birla Institute of Technology, Mesra",
+    "city": "Ranchi",
+    "state": "Jharkhand",
+    "type": "Deemed University",
+    "streams": ["Engineering", "Management", "Pharmacy", "Architecture"],
+    "courses": ["B.E./B.Tech", "MBA", "M.Tech", "B.Pharm"],
+    "fee_note": "SAMPLE — replace with verified current fee range (annual)",
+    "fee_range": "VERIFY before publishing",
+    "highlight": "One of India's oldest private engineering institutes (est. 1955)",
+    "logo": "",
+    "verified": false
+  },
+  {
+    "id": "nit-patna",
+    "name": "National Institute of Technology, Patna",
+    "city": "Patna",
+    "state": "Bihar",
+    "type": "Government / NIT",
+    "streams": ["Engineering", "Science"],
+    "courses": ["B.Tech", "M.Tech", "PhD"],
+    "fee_note": "SAMPLE — replace with verified current fee range (annual)",
+    "fee_range": "VERIFY before publishing",
+    "highlight": "Institute of National Importance",
+    "logo": "",
+    "verified": false
+  },
+  {
+    "id": "xlri-jamshedpur",
+    "name": "XLRI Jamshedpur",
+    "city": "Jamshedpur",
+    "state": "Jharkhand",
+    "type": "Private (Autonomous B-School)",
+    "streams": ["Management"],
+    "courses": ["MBA (BM)", "MBA (HRM)", "Fellow Programme"],
+    "fee_note": "SAMPLE — replace with verified current fee range",
+    "fee_range": "VERIFY before publishing",
+    "highlight": "One of India's oldest and top-ranked B-schools",
+    "logo": "",
+    "verified": false
+  },
+  {
+    "id": "patna-university",
+    "name": "Patna University",
+    "city": "Patna",
+    "state": "Bihar",
+    "type": "Government University",
+    "streams": ["Arts", "Science", "Commerce", "Law"],
+    "courses": ["BA", "B.Sc", "B.Com", "LLB"],
+    "fee_note": "SAMPLE — replace with verified current fee range",
+    "fee_range": "VERIFY before publishing",
+    "highlight": "One of the oldest universities in India (est. 1917)",
+    "logo": "",
+    "verified": false
+  }
+]
